@@ -1,0 +1,15 @@
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\obj\Debug\net8.0\Gyak-10-06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\obj\Debug\net8.0\Gyak-10-06.AssemblyInfoInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\obj\Debug\net8.0\Gyak-10-06.AssemblyInfo.cs
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\obj\Debug\net8.0\Gyak-10-06.csproj.CoreCompileInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\obj\Debug\net8.0\Gyak-10-06.sourcelink.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\bin\Debug\net8.0\Gyak-10-06.exe
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\bin\Debug\net8.0\Gyak-10-06.deps.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\bin\Debug\net8.0\Gyak-10-06.runtimeconfig.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\bin\Debug\net8.0\Gyak-10-06.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\bin\Debug\net8.0\Gyak-10-06.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\obj\Debug\net8.0\Gyak-10-06.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\obj\Debug\net8.0\refint\Gyak-10-06.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\obj\Debug\net8.0\Gyak-10-06.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\obj\Debug\net8.0\Gyak-10-06.genruntimeconfig.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\Gyak-10-06\obj\Debug\net8.0\ref\Gyak-10-06.dll

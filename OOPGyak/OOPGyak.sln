@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36401.2 d17.14
+VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPGyak", "OOPGyak\OOPGyak.csproj", "{9B7A5A56-B5A8-47D6-A423-0F3F711CF31E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gyak-10-06", "Gyak-10-06\Gyak-10-06.csproj", "{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9B7A5A56-B5A8-47D6-A423-0F3F711CF31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B7A5A56-B5A8-47D6-A423-0F3F711CF31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B7A5A56-B5A8-47D6-A423-0F3F711CF31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

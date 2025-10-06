@@ -1,0 +1,15 @@
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\bin\Debug\net8.0\OOPGyak.exe
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\bin\Debug\net8.0\OOPGyak.deps.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\bin\Debug\net8.0\OOPGyak.runtimeconfig.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\bin\Debug\net8.0\OOPGyak.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\bin\Debug\net8.0\OOPGyak.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\obj\Debug\net8.0\OOPGyak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\obj\Debug\net8.0\OOPGyak.AssemblyInfoInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\obj\Debug\net8.0\OOPGyak.AssemblyInfo.cs
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\obj\Debug\net8.0\OOPGyak.csproj.CoreCompileInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\obj\Debug\net8.0\OOPGyak.sourcelink.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\obj\Debug\net8.0\OOPGyak.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\obj\Debug\net8.0\refint\OOPGyak.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\obj\Debug\net8.0\OOPGyak.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\obj\Debug\net8.0\OOPGyak.genruntimeconfig.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\OOPGyak\OOPGyak\obj\Debug\net8.0\ref\OOPGyak.dll
