@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}|Gyak-10-06\\Gyak-10-06.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\oopgyak\\gyak-10-06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}|Gyak-10-06\\Gyak-10-06.csproj|solutionrelative:gyak-10-06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97B3DFBA-46F3-411A-8FB8-345B6F3675CF}|OOPGyak-10-14\\OOPGyak-10-14.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\oopgyak\\oopgyak-10-14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B3DFBA-46F3-411A-8FB8-345B6F3675CF}|OOPGyak-10-14\\OOPGyak-10-14.csproj|solutionrelative:oopgyak-10-14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}|Gyak-10-06\\Gyak-10-06.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\oopgyak\\gyak-10-06\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}|Gyak-10-06\\Gyak-10-06.csproj|solutionrelative:gyak-10-06\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}|Gyak-10-06\\Gyak-10-06.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\oopgyak\\gyak-10-06\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}|Gyak-10-06\\Gyak-10-06.csproj|solutionrelative:gyak-10-06\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}|Gyak-10-06\\Gyak-10-06.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\oopgyak\\gyak-10-06\\kampanyfilm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0663CC4F-53C5-4CC9-BD76-7C0B09F45244}|Gyak-10-06\\Gyak-10-06.csproj|solutionrelative:gyak-10-06\\kampanyfilm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97B3DFBA-46F3-411A-8FB8-345B6F3675CF}|OOPGyak-10-14\\OOPGyak-10-14.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\oopgyak\\oopgyak-10-14\\monitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B3DFBA-46F3-411A-8FB8-345B6F3675CF}|OOPGyak-10-14\\OOPGyak-10-14.csproj|solutionrelative:oopgyak-10-14\\monitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,56 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Kampanyfilm.cs",
-              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\Gyak-10-06\\Kampanyfilm.cs",
-              "RelativeDocumentMoniker": "Gyak-10-06\\Kampanyfilm.cs",
-              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\Gyak-10-06\\Kampanyfilm.cs",
-              "RelativeToolTip": "Gyak-10-06\\Kampanyfilm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T08:19:21.158Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Video.cs",
-              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\Gyak-10-06\\Video.cs",
-              "RelativeDocumentMoniker": "Gyak-10-06\\Video.cs",
-              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\Gyak-10-06\\Video.cs",
-              "RelativeToolTip": "Gyak-10-06\\Video.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIAwwBgAAAAAAAAAAAAAAA==",
+              "Title": "Monitor.cs",
+              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\OOPGyak-10-14\\Monitor.cs",
+              "RelativeDocumentMoniker": "OOPGyak-10-14\\Monitor.cs",
+              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\OOPGyak-10-14\\Monitor.cs",
+              "RelativeToolTip": "OOPGyak-10-14\\Monitor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T08:13:15.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Interface1.cs",
-              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\Gyak-10-06\\Interface1.cs",
-              "RelativeDocumentMoniker": "Gyak-10-06\\Interface1.cs",
-              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\Gyak-10-06\\Interface1.cs",
-              "RelativeToolTip": "Gyak-10-06\\Interface1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T08:12:17.509Z"
+              "WhenOpened": "2025-10-14T08:59:01.24Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\Gyak-10-06\\Program.cs",
-              "RelativeDocumentMoniker": "Gyak-10-06\\Program.cs",
-              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\Gyak-10-06\\Program.cs",
-              "RelativeToolTip": "Gyak-10-06\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\OOPGyak-10-14\\Program.cs",
+              "RelativeDocumentMoniker": "OOPGyak-10-14\\Program.cs",
+              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\OOPGyak\\OOPGyak-10-14\\Program.cs",
+              "RelativeToolTip": "OOPGyak-10-14\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T08:11:41.667Z",
+              "WhenOpened": "2025-10-14T08:58:41.682Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

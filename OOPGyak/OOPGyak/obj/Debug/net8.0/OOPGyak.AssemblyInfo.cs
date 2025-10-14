@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OOPGyak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+faf59a0cc9f50f7f847a1fa9bc7e08f69fc1a900")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b3e5864a93e69ffa80d3228aad111b835d3630e")]
 [assembly: System.Reflection.AssemblyProductAttribute("OOPGyak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OOPGyak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
