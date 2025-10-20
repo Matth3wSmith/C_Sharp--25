@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Dolgozat-10-20/1.0.0": {
+        "runtime": {
+          "Dolgozat-10-20.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dolgozat-10-20/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

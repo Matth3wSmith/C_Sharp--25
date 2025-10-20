@@ -1,0 +1,15 @@
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\obj\Debug\net8.0\Dolgozat-10-20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\obj\Debug\net8.0\Dolgozat-10-20.AssemblyInfoInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\obj\Debug\net8.0\Dolgozat-10-20.AssemblyInfo.cs
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\obj\Debug\net8.0\Dolgozat-10-20.csproj.CoreCompileInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\obj\Debug\net8.0\Dolgozat-10-20.sourcelink.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\bin\Debug\net8.0\Dolgozat-10-20.exe
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\bin\Debug\net8.0\Dolgozat-10-20.deps.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\bin\Debug\net8.0\Dolgozat-10-20.runtimeconfig.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\bin\Debug\net8.0\Dolgozat-10-20.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\bin\Debug\net8.0\Dolgozat-10-20.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\obj\Debug\net8.0\Dolgozat-10-20.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\obj\Debug\net8.0\refint\Dolgozat-10-20.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\obj\Debug\net8.0\Dolgozat-10-20.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\obj\Debug\net8.0\Dolgozat-10-20.genruntimeconfig.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\Dolgozat-10-20\obj\Debug\net8.0\ref\Dolgozat-10-20.dll
