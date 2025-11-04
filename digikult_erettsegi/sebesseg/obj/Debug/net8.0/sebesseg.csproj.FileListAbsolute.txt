@@ -1,0 +1,15 @@
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\obj\Debug\net8.0\sebesseg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\obj\Debug\net8.0\sebesseg.AssemblyInfoInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\obj\Debug\net8.0\sebesseg.AssemblyInfo.cs
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\obj\Debug\net8.0\sebesseg.csproj.CoreCompileInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\obj\Debug\net8.0\sebesseg.sourcelink.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\bin\Debug\net8.0\sebesseg.exe
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\bin\Debug\net8.0\sebesseg.deps.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\bin\Debug\net8.0\sebesseg.runtimeconfig.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\bin\Debug\net8.0\sebesseg.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\bin\Debug\net8.0\sebesseg.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\obj\Debug\net8.0\sebesseg.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\obj\Debug\net8.0\refint\sebesseg.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\obj\Debug\net8.0\sebesseg.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\obj\Debug\net8.0\sebesseg.genruntimeconfig.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\sebesseg\obj\Debug\net8.0\ref\sebesseg.dll
