@@ -8,37 +8,24 @@ namespace sebesseg
 {
     internal class Ut
     {
-        public int km;
+        public int m;
         public string jelzes;
         public int  sebesseg;
-        public bool varosbanVan;
-        public Ut(string sor)
+        private  bool varosbanVan;
+        public bool VarosbanVan
         {
-            string[] adatok = sor.Split(' ');
-            this.km = int.Parse(adatok[0]);
-            this.jelzes = adatok[1];
-
-        }
-        public Ut(int ut,string jelzes)
-        {
-            this.km = ut;
-            this.jelzes = jelzes;
-
-            try
+            get { return varosbanVan; }
+            set
             {
-                sebesseg = int.Parse(jelzes);
-            }
-            catch (Exception)
-            {
-
-                if (varosbanVan)
+                if (value)
                 {
-                    if (jelzes == "%" || jelzes == "#")
+                    if (jelzes == "%" || jelzes == "#" || isTelepules())
                     {
                         sebesseg = 50;
                     }
-                    else { 
-                        sebesseg = int.Parse(jelzes);
+                    else
+                    {
+                        sebesseg = Convert.ToInt32(jelzes);
                     }
 
                 }
@@ -50,13 +37,27 @@ namespace sebesseg
                     }
                     else
                     {
-                        sebesseg = int.Parse(jelzes);
+                        sebesseg = Convert.ToInt32(jelzes);
                     }
                 }
+                varosbanVan = value;
             }
-            
+        }
+        public Ut(string sor)
+        {
+            string[] adatok = sor.Split(' ');
+            this.m = int.Parse(adatok[0]);
+            this.jelzes = adatok[1];
 
         }
+        public Ut(int ut,string jelzes)
+        {
+            this.m = ut;
+            this.jelzes = jelzes;
+        }
+            
+
+        
         public bool isTelepules()
         {
             return this.jelzes.Length >= 4;
@@ -64,7 +65,7 @@ namespace sebesseg
         
         public override string ToString()
         {
-            return $"{km} {jelzes} {varosbanVan}";
+            return $"{m} {jelzes} {varosbanVan} {sebesseg}";
         }
     }
 }
