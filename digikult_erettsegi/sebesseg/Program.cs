@@ -68,6 +68,77 @@
             Console.WriteLine("4. feladat");
             Console.WriteLine("Az út {0:0.00} százaléka vezet településen belül.", (tUtSum/osszUt*100) );
 
+            //5. feladat
+            Console.WriteLine("5. feladat");
+            Console.Write("Adja meg egy település nevét! ");
+            string varosNev = Console.ReadLine();
+            Ut varos = utak.Where(x => x.jelzes == varosNev).First();
+            bool varosban = false;
+            Ut varosKezd = utak[0];
+            Ut varosVeg = utak[0]; 
+            int korlatozas = 0;
+            for (int i = 0; i < utak.Count; i++)
+            {
+                if (utak[i] == varos)
+                {
+                    varosKezd = utak[i];
+                    varosban = true;
+                }
+                else if (varosban)
+                {
+                    if (utak[i].jelzes.Length == 2)
+                    {
+                        korlatozas++;
+                    }
+                    else if (utak[i].jelzes == "]")
+                    {
+                        varosVeg = utak[i];
+                        varosban = false;
+                    }
+                }
+            }
+            Console.WriteLine("A sebességkorlátozó táblák száma: "+korlatozas);
+            Console.WriteLine("Az út hossza a településen belül {0} méter.",varosVeg.m-varosKezd.m);
+
+            //6. feladat
+            Console.WriteLine("6. feladat");
+            Ut elotteUt = utak[0];
+            Ut elotteVaros = utak[0];
+            Ut utanaVaros = utak[0];
+
+            //Előtte lévő város
+            for (int i = utak.IndexOf(varosKezd)-1; i>0; i--)
+            {
+                if (utak[i].jelzes == "]")
+                {
+                    elotteUt = utak[i];
+                }
+                else if (utak[i].isTelepules())
+                {
+                    elotteVaros = utak[i];
+                    break;
+                }
+            }
+            //Utánaváros
+            for (int i = utak.IndexOf(varosKezd)+1; i < utak.Count; i++)
+            {
+                if (utak[i].isTelepules())
+                {
+                    utanaVaros = utak[i];
+                    break;
+                }
+            }
+            //Előtte lévő város közelebb van
+            if (varosKezd.m - elotteUt.m <= utanaVaros.m - varosVeg.m)
+            {
+                Console.WriteLine("A legközelebbi település: "+elotteVaros.jelzes);
+
+            }
+            else
+            {
+
+                Console.WriteLine("A legközelebbi település: " + utanaVaros.jelzes);
+            }
         }
     }
 }
