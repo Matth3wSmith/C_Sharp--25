@@ -1,0 +1,15 @@
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\bin\Debug\net8.0\godrok.exe
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\bin\Debug\net8.0\godrok.deps.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\bin\Debug\net8.0\godrok.runtimeconfig.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\bin\Debug\net8.0\godrok.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\bin\Debug\net8.0\godrok.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\obj\Debug\net8.0\godrok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\obj\Debug\net8.0\godrok.AssemblyInfoInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\obj\Debug\net8.0\godrok.AssemblyInfo.cs
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\obj\Debug\net8.0\godrok.csproj.CoreCompileInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\obj\Debug\net8.0\godrok.sourcelink.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\obj\Debug\net8.0\godrok.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\obj\Debug\net8.0\refint\godrok.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\obj\Debug\net8.0\godrok.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\obj\Debug\net8.0\godrok.genruntimeconfig.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\godrok\obj\Debug\net8.0\ref\godrok.dll
