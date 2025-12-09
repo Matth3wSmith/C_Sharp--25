@@ -11,6 +11,7 @@ namespace godrok
 
             //1. feladat
             List<int> adatok = (File.ReadAllLines("melyseg.txt")).Select(x => Convert.ToInt32(x)).ToList();
+            List<int> adatindexek = adatok.Select((x,i)=>i).ToList();    
             Console.WriteLine("1. feladat");
             Console.WriteLine("A fájl adatainak száma: "+adatok.Count);
 
@@ -45,6 +46,7 @@ namespace godrok
 
             //6. feladat
             Console.WriteLine("6. feladat");
+
             if(tavolsag>adatok.Count || tavolsag < 1)
             {
                 Console.WriteLine("Az adott helyen nincs gödör");
@@ -52,6 +54,18 @@ namespace godrok
             else
             {
                 Console.WriteLine("a)");
+                int kezdo = 0;
+                for(int i = 0; i < tavolsag - 1; i++)
+                {
+                    if (adatok[i]>0 && kezdo == 0)
+                    {
+                        kezdo = i;
+                    }
+                    else if (adatok[i] == 0)
+                    {
+                        kezdo = 0;
+                    }
+                }
             }
 
         }
