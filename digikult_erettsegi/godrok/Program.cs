@@ -1,6 +1,7 @@
 ﻿
 
 using System;
+using System.Text.RegularExpressions;
 
 namespace godrok
 {
@@ -27,7 +28,10 @@ namespace godrok
 
             //4. feladat
             StreamWriter ir = new StreamWriter("godrok.txt");
-            for (int i = 0; i < adatok.Count-1; i++)
+
+            var eredmeny = String.Join("\n", Regex.Split(String.Join("",adatok),@"0+").Skip(1));
+            ir.Write(eredmeny);
+            /*for (int i = 0; i < adatok.Count-1; i++)
             {
                 if (adatok[i] != 0)
                 {
@@ -37,7 +41,7 @@ namespace godrok
                         ir.WriteLine();
                     }
                 }
-            }
+            }*/
             ir.Close();
 
             //5.feladat
