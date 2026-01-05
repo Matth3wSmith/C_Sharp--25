@@ -1,0 +1,15 @@
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\bin\Debug\net8.0\tanciskola.exe
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\bin\Debug\net8.0\tanciskola.deps.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\bin\Debug\net8.0\tanciskola.runtimeconfig.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\bin\Debug\net8.0\tanciskola.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\bin\Debug\net8.0\tanciskola.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\obj\Debug\net8.0\tanciskola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\obj\Debug\net8.0\tanciskola.AssemblyInfoInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\obj\Debug\net8.0\tanciskola.AssemblyInfo.cs
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\obj\Debug\net8.0\tanciskola.csproj.CoreCompileInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\obj\Debug\net8.0\tanciskola.sourcelink.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\obj\Debug\net8.0\tanciskola.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\obj\Debug\net8.0\refint\tanciskola.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\obj\Debug\net8.0\tanciskola.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\obj\Debug\net8.0\tanciskola.genruntimeconfig.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\digikult_erettsegi\tanciskola\obj\Debug\net8.0\ref\tanciskola.dll
