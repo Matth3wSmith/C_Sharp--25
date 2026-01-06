@@ -1,0 +1,15 @@
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\bin\Debug\net8.0\OOPstatic.exe
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\bin\Debug\net8.0\OOPstatic.deps.json
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\bin\Debug\net8.0\OOPstatic.runtimeconfig.json
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\bin\Debug\net8.0\OOPstatic.dll
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\bin\Debug\net8.0\OOPstatic.pdb
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\obj\Debug\net8.0\OOPstatic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\obj\Debug\net8.0\OOPstatic.AssemblyInfoInputs.cache
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\obj\Debug\net8.0\OOPstatic.AssemblyInfo.cs
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\obj\Debug\net8.0\OOPstatic.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\obj\Debug\net8.0\OOPstatic.sourcelink.json
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\obj\Debug\net8.0\OOPstatic.dll
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\obj\Debug\net8.0\refint\OOPstatic.dll
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\obj\Debug\net8.0\OOPstatic.pdb
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\obj\Debug\net8.0\OOPstatic.genruntimeconfig.cache
+C:\Users\Matthew\source\C_Sharp--25\OOPstatic\obj\Debug\net8.0\ref\OOPstatic.dll
