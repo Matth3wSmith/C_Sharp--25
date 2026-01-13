@@ -1,0 +1,15 @@
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\obj\Debug\net8.0\operatorok_gyak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\obj\Debug\net8.0\operatorok_gyak.AssemblyInfoInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\obj\Debug\net8.0\operatorok_gyak.AssemblyInfo.cs
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\obj\Debug\net8.0\operatorok_gyak.csproj.CoreCompileInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\obj\Debug\net8.0\operatorok_gyak.sourcelink.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\bin\Debug\net8.0\operatorok_gyak.exe
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\bin\Debug\net8.0\operatorok_gyak.deps.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\bin\Debug\net8.0\operatorok_gyak.runtimeconfig.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\bin\Debug\net8.0\operatorok_gyak.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\bin\Debug\net8.0\operatorok_gyak.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\obj\Debug\net8.0\operatorok_gyak.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\obj\Debug\net8.0\refint\operatorok_gyak.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\obj\Debug\net8.0\operatorok_gyak.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\obj\Debug\net8.0\operatorok_gyak.genruntimeconfig.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatorok_gyak\obj\Debug\net8.0\ref\operatorok_gyak.dll

@@ -1,0 +1,6 @@
+Objektum ami tartalmaz egy szöveget.
+Ha két ilyen objektumot összeadunk, akkor a kettőnek a szövegét sorral elválasztva tartalmazza a kettőnek a szövegét.
+Kivonásnál az első szövegből kivonjuk a második szöveg betűit.
+
+obj+szöveg = newobj (régszöveg+ujszöveg)
+obj-szöveg = newobj (régiszövegbetűi-újszövegbetűi)

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "operatorok_gyak/1.0.0": {
+        "runtime": {
+          "operatorok_gyak.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "operatorok_gyak/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
