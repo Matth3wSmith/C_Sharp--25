@@ -1,0 +1,15 @@
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\obj\Debug\net8.0\operatrorok_gyak2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\obj\Debug\net8.0\operatrorok_gyak2.AssemblyInfoInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\obj\Debug\net8.0\operatrorok_gyak2.AssemblyInfo.cs
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\obj\Debug\net8.0\operatrorok_gyak2.csproj.CoreCompileInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\obj\Debug\net8.0\operatrorok_gyak2.sourcelink.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\bin\Debug\net8.0\operatrorok_gyak2.exe
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\bin\Debug\net8.0\operatrorok_gyak2.deps.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\bin\Debug\net8.0\operatrorok_gyak2.runtimeconfig.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\bin\Debug\net8.0\operatrorok_gyak2.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\bin\Debug\net8.0\operatrorok_gyak2.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\obj\Debug\net8.0\operatrorok_gyak2.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\obj\Debug\net8.0\refint\operatrorok_gyak2.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\obj\Debug\net8.0\operatrorok_gyak2.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\obj\Debug\net8.0\operatrorok_gyak2.genruntimeconfig.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operatrorok_gyak2\obj\Debug\net8.0\ref\operatrorok_gyak2.dll
