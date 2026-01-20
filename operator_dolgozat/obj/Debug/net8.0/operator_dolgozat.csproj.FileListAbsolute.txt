@@ -1,0 +1,15 @@
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\bin\Debug\net8.0\operator_dolgozat.exe
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\bin\Debug\net8.0\operator_dolgozat.deps.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\bin\Debug\net8.0\operator_dolgozat.runtimeconfig.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\bin\Debug\net8.0\operator_dolgozat.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\bin\Debug\net8.0\operator_dolgozat.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\obj\Debug\net8.0\operator_dolgozat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\obj\Debug\net8.0\operator_dolgozat.AssemblyInfoInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\obj\Debug\net8.0\operator_dolgozat.AssemblyInfo.cs
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\obj\Debug\net8.0\operator_dolgozat.csproj.CoreCompileInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\obj\Debug\net8.0\operator_dolgozat.sourcelink.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\obj\Debug\net8.0\operator_dolgozat.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\obj\Debug\net8.0\refint\operator_dolgozat.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\obj\Debug\net8.0\operator_dolgozat.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\obj\Debug\net8.0\operator_dolgozat.genruntimeconfig.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\operator_dolgozat\obj\Debug\net8.0\ref\operator_dolgozat.dll
