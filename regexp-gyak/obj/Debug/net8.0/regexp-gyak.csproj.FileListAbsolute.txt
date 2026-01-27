@@ -1,0 +1,15 @@
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\bin\Debug\net8.0\regexp-gyak.exe
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\bin\Debug\net8.0\regexp-gyak.deps.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\bin\Debug\net8.0\regexp-gyak.runtimeconfig.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\bin\Debug\net8.0\regexp-gyak.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\bin\Debug\net8.0\regexp-gyak.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\obj\Debug\net8.0\regexp-gyak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\obj\Debug\net8.0\regexp-gyak.AssemblyInfoInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\obj\Debug\net8.0\regexp-gyak.AssemblyInfo.cs
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\obj\Debug\net8.0\regexp-gyak.csproj.CoreCompileInputs.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\obj\Debug\net8.0\regexp-gyak.sourcelink.json
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\obj\Debug\net8.0\regexp-gyak.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\obj\Debug\net8.0\refint\regexp-gyak.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\obj\Debug\net8.0\regexp-gyak.pdb
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\obj\Debug\net8.0\regexp-gyak.genruntimeconfig.cache
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\regexp-gyak\obj\Debug\net8.0\ref\regexp-gyak.dll
