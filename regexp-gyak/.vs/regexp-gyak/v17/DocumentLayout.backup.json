@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C6F6FF7E-6D5A-428E-A5EA-20FA4EADB642}|regexp-gyak.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\regexp-gyak\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6F6FF7E-6D5A-428E-A5EA-20FA4EADB642}|regexp-gyak.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\regexp-gyak\\bin\\Debug\\net8.0\\shakespeare.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\shakespeare.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +26,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "shakespeare.txt",
+              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\regexp-gyak\\bin\\Debug\\net8.0\\shakespeare.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\shakespeare.txt",
+              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\regexp-gyak\\bin\\Debug\\net8.0\\shakespeare.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\shakespeare.txt",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-27T10:24:12.317Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\regexp-gyak\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\regexp-gyak\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\regexp-gyak\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T09:52:05.045Z",
               "EditorCaption": ""
