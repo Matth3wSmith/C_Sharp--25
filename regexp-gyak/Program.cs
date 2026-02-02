@@ -33,13 +33,19 @@ namespace regexp_gyak
             Console.WriteLine("Szám: " + evszam.Matches(adathalmaz).Count);
 
             //Azok a szavak, amik az ELSŐ ŐR első szavai
-            Regex elsoOr = new Regex(@"ELSŐ ŐR\t\w[A-ZÉÁŰÚŐÓÜÖÍ]+", RegexOptions.IgnoreCase);
-            foreach (var item in elsoOr.Matches(adathalmaz))
+            Regex elsoOr = new Regex(@"ELSŐ ŐR\t([A-ZÉÁŰÚŐÓÜÖÍ]+)\s([A-ZÉÁŰÚŐÓÜÖÍ]+)\s([A-ZÉÁŰÚŐÓÜÖÍ]+)\s([A-ZÉÁŰÚŐÓÜÖÍ]+)", RegexOptions.IgnoreCase);
+            foreach (var item in elsoOr.Match(adathalmaz).Groups)
             {
-                Console.WriteLine(item);
+                Console.WriteLine("Első őr első szavai: " + item);
             }
-            ;
 
+            Regex nevesOr = new Regex(@"ELSŐ ŐR\t(?<elso>[A-ZÉÁŰÚŐÓÜÖÍ]+)\s(?<masodik>[A-ZÉÁŰÚŐÓÜÖÍ]+)>\s(?<harmadik>[A-ZÉÁŰÚŐÓÜÖÍ]+)\s(?<negyedik>[A-ZÉÁŰÚŐÓÜÖÍ]+)", RegexOptions.IgnoreCase);
+            var valami = elsoOr.Match(adathalmaz);
+            Console.WriteLine(valami);
+            foreach (var item in elsoOr.Match(adathalmaz).Groups)
+            {
+                Console.WriteLine("Első őr első szavai: " + item);
+            }
 
         }
     }

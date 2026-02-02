@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("regexp-gyak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3294eab7aeab239be6e6e6350b2e871d63c4bb5d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd56835a8ad50c68c81d01c1b8238b4bf6992d52")]
 [assembly: System.Reflection.AssemblyProductAttribute("regexp-gyak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("regexp-gyak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
