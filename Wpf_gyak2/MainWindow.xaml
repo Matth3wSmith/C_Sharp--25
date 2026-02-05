@@ -1,0 +1,42 @@
+﻿<Window x:Class="Wpf_gyak2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_gyak2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="81*"/>
+                        <ColumnDefinition Width="713*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="Szam1" HorizontalAlignment="Left" Margin="25,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <TextBox x:Name="Szam2" HorizontalAlignment="Left" Margin="229,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
+                    <TextBox x:Name="Szam3" HorizontalAlignment="Left" Margin="422,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1" Grid.Column="1"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="25,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"><Run Language="hu-hu" Text="Első szám:"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="229,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"><Run Language="hu-hu" Text="2. "/><Run Text="szám:"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="422,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"><Run Text="Harmadik"/><Run Language="hu-hu" Text="."/><Run Text=" "/><Run Text="szám:"/></TextBlock>
+                    <Button x:Name="SzamGomb" Content="Két legkisebb szorzata" HorizontalAlignment="Left" Margin="25,106,0,0" VerticalAlignment="Top" Width="517" Click="Button_Click" Grid.Column="1"/>
+                    <TextBlock x:Name="Eredmeny" HorizontalAlignment="Left" Margin="259,163,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="Szoveg2" HorizontalAlignment="Center" Margin="0,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="Valtozas"/>
+                    <TextBlock HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="Szöveg:"/></TextBlock>
+                    <Slider x:Name="Honnan" HorizontalAlignment="Left" Margin="255,90,0,0" VerticalAlignment="Top" Width="120" SmallChange="1" TickPlacement="BottomRight" AutoToolTipPlacement="BottomRight" Maximum="0" TouchMove="Honnan_TouchMove"/>
+                    <Slider x:Name="Meddig" HorizontalAlignment="Left" Margin="441,90,0,0" VerticalAlignment="Top" Width="120" Maximum="0" AutoToolTipPlacement="BottomRight" SmallChange="1" TickPlacement="BottomRight"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="255,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="Honnan vágja:"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="441,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="Meddig vágja:"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Center" Margin="0,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="Vágott szöveg"/></TextBlock>
+                    <TextBlock x:Name="Eredmeny2" HorizontalAlignment="Center" Margin="0,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,3 @@
+3 szám közül, összeszorozza a kettő legkisebbet
+A megjelenítés legyen egy olyan controlban amiben fülek vannak (tab)
+másik tab oldalra szó bevitelére alkalmas elem és két csúszkát 1. honnantól vágja ki 2. hogy meddig vágja, változásra a megadott rész jelenjen meg valahol
