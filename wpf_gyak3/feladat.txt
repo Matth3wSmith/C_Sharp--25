@@ -1,0 +1,1 @@
+WPF projekt amiben van egy szöveg bekérési mező ami ugye a textbox és egy gomb és a szöveg jelenjen meg egy új labelben
