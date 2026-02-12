@@ -19,3 +19,5 @@ C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\wpf_gyak3\obj\Debug\net8.0-wind
 C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\wpf_gyak3\obj\Debug\net8.0-windows\wpf_gyak3.pdb
 C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\wpf_gyak3\obj\Debug\net8.0-windows\wpf_gyak3.genruntimeconfig.cache
 C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\wpf_gyak3\obj\Debug\net8.0-windows\ref\wpf_gyak3.dll
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\wpf_gyak3\obj\Debug\net8.0-windows\MyWindow.g.cs
+C:\Users\kovacs.mate.22\source\repos\C_Sharp--25\wpf_gyak3\obj\Debug\net8.0-windows\MyWindow.baml

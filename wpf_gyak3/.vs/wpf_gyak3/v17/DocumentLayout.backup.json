@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{788BC0DF-2DD6-447C-8814-C88638A1C3F5}|wpf_gyak3.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\wpf_gyak3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{788BC0DF-2DD6-447C-8814-C88638A1C3F5}|wpf_gyak3.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788BC0DF-2DD6-447C-8814-C88638A1C3F5}|wpf_gyak3.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\wpf_gyak3\\mywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{788BC0DF-2DD6-447C-8814-C88638A1C3F5}|wpf_gyak3.csproj|solutionrelative:mywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788BC0DF-2DD6-447C-8814-C88638A1C3F5}|wpf_gyak3.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\wpf_gyak3\\mywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788BC0DF-2DD6-447C-8814-C88638A1C3F5}|wpf_gyak3.csproj|solutionrelative:mywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +26,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\wpf_gyak3\\MyWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MyWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\wpf_gyak3\\MyWindow.xaml.cs",
+              "RelativeToolTip": "MyWindow.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAWwBwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T09:59:54.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\wpf_gyak3\\MyWindow.xaml",
+              "RelativeDocumentMoniker": "MyWindow.xaml",
+              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\wpf_gyak3\\MyWindow.xaml",
+              "RelativeToolTip": "MyWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T09:59:39.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +77,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\wpf_gyak3\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAnwEIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-11T09:46:07.836Z",
               "EditorCaption": ""

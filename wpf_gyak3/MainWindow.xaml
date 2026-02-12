@@ -6,8 +6,28 @@
         xmlns:local="clr-namespace:wpf_gyak3"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Grid x:Name="MainGrid">
-        <TextBox x:Name="Szoveg" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <Button x:Name="Gomb" Content="Történjen már valami" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+        
+        <Grid.RowDefinitions>
+            
+            <!-- Felső rész: vezérlők -->
+            <RowDefinition Height="Auto"/>
+            
+            <!-- Alsó rész: dinamikus táblázat -->
+            <RowDefinition Height="*"/>
+            
+        </Grid.RowDefinitions>
+        
+        <!-- FELSŐ RÉSZ -->
+        
+            <TextBox x:Name="Szoveg" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <Button x:Name="Gomb" Content="Történjen már valami" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+            <Button Content="Ablak nyitása" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        
+        
+        <!-- ALSÓ RÉSZ -->
+        <Grid x:Name="TableGrid"
+          Grid.Row="1"/>
     </Grid>
 </Window>

@@ -21,7 +21,8 @@ namespace wpf_gyak3
         public MainWindow()
         {
             InitializeComponent();
-
+            this.Left = 300;
+            this.Top = 100;
             //Grid táblázat létrehozása
             for (int i = 0; i < row; i++)
             {
@@ -29,7 +30,7 @@ namespace wpf_gyak3
                 {
                     Height = GridLength.Auto
                 };
-                MainGrid.RowDefinitions.Add(ujSor);
+                TableGrid.RowDefinitions.Add(ujSor);
 
             }
             for (int i = 0; i < row; i++)
@@ -39,12 +40,8 @@ namespace wpf_gyak3
                     Width = new GridLength(1, GridUnitType.Star)
                 };
 
-                MainGrid.ColumnDefinitions.Add(ujOszlop);
+                TableGrid.ColumnDefinitions.Add(ujOszlop);
             }
-            Grid.SetRow(Szoveg, 0);
-            Grid.SetColumn(Szoveg, 0);
-            Grid.SetRow(Gomb, 0);
-            Grid.SetColumn(Gomb, 0);
 
         }
 
@@ -64,12 +61,36 @@ namespace wpf_gyak3
             label.Content = " s: " + randRow + " o: " + randCol;
             Grid.SetColumn(label, randCol);
             Grid.SetRow(label, randRow);
-            MainGrid.Children.Add(label);
+            TableGrid.Children.Add(label);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            //MyWindow (saját ablak) példányosítása
+            MyWindow tempWindow = new MyWindow
+            {
+                //Mindig az eredeti ablak felett marad és ha bezárjuk az eredetit akkor ez is bezáródik
+                Owner = this,
+                //pozíció manuális megadása
+                WindowStartupLocation = WindowStartupLocation.Manual,
+                //A mértékegység DIP (Device Independent Pixel) ami 1/96 inch-nek felel meg
+                /*Left = 1000,
+                Top = 500*/
+                //Képernyő méretének felhasználásával
+                Left = 100,
+                Top = 100,
+                Width = 200,
+                Height = 200,
+                //Számolás
+                count = 1
+            };
+            //Megjelenítése 
+            tempWindow.Show();
         }
     }
 }
