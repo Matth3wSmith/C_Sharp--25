@@ -43,10 +43,25 @@ namespace Wpf_gyak2
             int hossz = Szoveg2.Text.Length;
             Honnan.Maximum = hossz-1;
             Meddig.Maximum = hossz-1;
+            Eredmeny2.Text = Szoveg2.Text.Substring((int)Honnan.Value, (int)Meddig.Value - (int)Honnan.Value + 1);
+
         }
 
         private void Honnan_TouchMove(object sender, TouchEventArgs e)
         {
+        }
+
+        private void Honnan_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            Meddig.Minimum = Honnan.Value;
+            Eredmeny2.Text = Szoveg2.Text.Substring((int)Honnan.Value, (int)Meddig.Value - (int)Honnan.Value +1);
+
+
+        }
+
+        private void Meddig_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            Eredmeny2.Text = Szoveg2.Text.Substring((int)Honnan.Value, (int)Meddig.Value - (int)Honnan.Value +1);
 
         }
     }

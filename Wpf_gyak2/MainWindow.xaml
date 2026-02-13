@@ -29,8 +29,8 @@
                 <Grid Background="#FFE5E5E5">
                     <TextBox x:Name="Szoveg2" HorizontalAlignment="Center" Margin="0,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="Valtozas"/>
                     <TextBlock HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="Szöveg:"/></TextBlock>
-                    <Slider x:Name="Honnan" HorizontalAlignment="Left" Margin="255,90,0,0" VerticalAlignment="Top" Width="120" SmallChange="1" TickPlacement="BottomRight" AutoToolTipPlacement="BottomRight" Maximum="0" TouchMove="Honnan_TouchMove"/>
-                    <Slider x:Name="Meddig" HorizontalAlignment="Left" Margin="441,90,0,0" VerticalAlignment="Top" Width="120" Maximum="0" AutoToolTipPlacement="BottomRight" SmallChange="1" TickPlacement="BottomRight"/>
+                    <Slider x:Name="Honnan" HorizontalAlignment="Left" Margin="255,90,0,0" VerticalAlignment="Top" Width="120" SmallChange="1" TickPlacement="BottomRight" AutoToolTipPlacement="BottomRight" Maximum="0" TouchMove="Honnan_TouchMove" ValueChanged="Honnan_ValueChanged" Cursor="" IsSnapToTickEnabled="True"/>
+                    <Slider x:Name="Meddig" HorizontalAlignment="Left" Margin="441,90,0,0" VerticalAlignment="Top" Width="120" Maximum="0" AutoToolTipPlacement="BottomRight" SmallChange="1" TickPlacement="BottomRight" ValueChanged="Meddig_ValueChanged" IsSnapToTickEnabled="True"/>
                     <TextBlock HorizontalAlignment="Left" Margin="255,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="Honnan vágja:"/></TextBlock>
                     <TextBlock HorizontalAlignment="Left" Margin="441,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="Meddig vágja:"/></TextBlock>
                     <TextBlock HorizontalAlignment="Center" Margin="0,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="Vágott szöveg"/></TextBlock>
