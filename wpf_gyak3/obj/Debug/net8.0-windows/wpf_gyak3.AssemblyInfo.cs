@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wpf_gyak3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+481fa89d7e5497dd1ef52bc8f42af3e7a405d6c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf51df1c757853d548fd4c1ba0a55c74ef19027f")]
 [assembly: System.Reflection.AssemblyProductAttribute("wpf_gyak3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wpf_gyak3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
