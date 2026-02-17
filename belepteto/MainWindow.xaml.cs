@@ -19,18 +19,38 @@ namespace belepteto
     {
         int FoGridSor = 3;
         int FoGridOszlop = 3;
+        List<List<string>> adatok;
         public MainWindow()
         {
             InitializeComponent();
 
             //1.feladat
-            //List<List<string>> adatok = File.ReadAllLines("beadat.txt").Select(x=>x.Split().ToList()).ToList();
+            List<List<string>> adatok = File.ReadAllLines("bedat.txt").Select(x=>x.Split().ToList()).ToList();
 
             gridTablazat(FoGrid, FoGridOszlop, FoGridSor);
-            feladatKartya(3,1,2);
+            /*feladatKartya(3,0,0);
+            feladatKartya(3,1,0);
+            feladatKartya(3,2,0); 
+            feladatKartya(3, 0, 1);
+            feladatKartya(3, 1, 1);
+            feladatKartya(3, 2, 1); 
+            feladatKartya(3, 0, 2);
+            feladatKartya(3, 1, 2);
+            feladatKartya(3, 2, 2);*/
+
+
+            feladatKartya(2, 0, 0);
+            Label szoveg = new Label
+            {
+                Content = "Első belépés: ",
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            };
+
         }
 
-        void feladatKartya(int feladatSzam, int pozicioSor, int poziciosOszlop)
+        void feladatKartya(int feladatSzam, int pozicioSor, int pozicioOszlop)
         {
             //Keret
             Border kulsoKeret = new Border
@@ -50,7 +70,6 @@ namespace belepteto
                     }
                 }
             };
-
             Border belsoKeret = new Border
             {
                 BorderThickness = new Thickness(1),
@@ -69,7 +88,7 @@ namespace belepteto
             };
 
             Grid.SetRow(kulsoKeret, pozicioSor);
-            Grid.SetColumn(kulsoKeret, poziciosOszlop);
+            Grid.SetColumn(kulsoKeret, pozicioOszlop);
 
             kulsoKeret.Child = belsoKeret;
             belsoKeret.Child = belsoGrid;
