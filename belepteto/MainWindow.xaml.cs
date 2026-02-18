@@ -24,8 +24,11 @@ namespace belepteto
         {
             InitializeComponent();
 
+            this.Width = 1200;
+
             //1.feladat
             List<List<string>> adatok = File.ReadAllLines("bedat.txt").Select(x=>x.Split().ToList()).ToList();
+
 
             gridTablazat(FoGrid, FoGridOszlop, FoGridSor);
             /*feladatKartya(3,0,0);
@@ -39,18 +42,29 @@ namespace belepteto
             feladatKartya(3, 2, 2);*/
 
 
-            feladatKartya(2, 0, 0);
+            StackPanel feladat2 = feladatKartya(2, 0, 0);
+            var belepes = adatok.Where(x => x[2] == "1").First();
+            var kilepes = adatok.Where(x => x[2] == "2").Last();
             Label szoveg = new Label
             {
-                Content = "Első belépés: ",
+                Content = $"Az első tanuló {belepes[1]}-kor lépett be a főkapun.",
                 FontSize = 16,
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Top
             };
+            Label szoveg2 = new Label
+            {
+                Content = $"Az utolsó tanuló {kilepes[1]}-kor lépett ki a főkapun.",
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            };
+            feladat2.Children.Add(szoveg);
+            feladat2.Children.Add(szoveg2);
 
         }
 
-        void feladatKartya(int feladatSzam, int pozicioSor, int pozicioOszlop)
+        StackPanel feladatKartya(int feladatSzam, int pozicioSor, int pozicioOszlop)
         {
             //Keret
             Border kulsoKeret = new Border
@@ -77,12 +91,25 @@ namespace belepteto
             };
             Grid belsoGrid = new Grid
             {
-                Name = "Feladat"+ feladatSzam,
+                
             };
-            Label szoveg = new Label
+            StackPanel stackPanel = new StackPanel
             {
+                Name = "Feladat" + feladatSzam,
+                Orientation = Orientation.Vertical,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+
+            Button szoveg = new Button
+            {
+
                 Content = feladatSzam+". feladat",
+                Padding = new Thickness(10),
+                Margin = new Thickness(0, 10, 0, 10),
+                
                 FontSize = 20,
+                FontWeight = FontWeights.Bold,
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Top
             };
@@ -92,9 +119,11 @@ namespace belepteto
 
             kulsoKeret.Child = belsoKeret;
             belsoKeret.Child = belsoGrid;
-            belsoGrid.Children.Add(szoveg);
-            
+            belsoGrid.Children.Add(stackPanel);
+            stackPanel.Children.Add(szoveg);
+
             FoGrid.Children.Add(kulsoKeret);
+            return stackPanel;
         }
 
 
