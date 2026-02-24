@@ -60,7 +60,13 @@ namespace belepteto
             Button gomb4 = feladat4.Children[0] as Button;
             gomb4.Click += (sender, e) =>
             {
-                feladat3fgv(sender, e, feladat4, tanulok);
+                feladat4fgv(sender, e, feladat4, tanulok);
+            };
+            StackPanel feladat5 = feladatKartya(5, 1, 0);
+            Button gomb5 = feladat5.Children[0] as Button;
+            gomb5.Click += (sender, e) =>
+            {
+                feladat5fgv(sender, e, feladat5, tanulok);
             };
         }
 
@@ -106,7 +112,9 @@ namespace belepteto
             ListBox doboz = new ListBox
             {
                 ItemsSource = belepesFuzott,
-                Height = 200
+                Height = 200,
+                Margin = new Thickness(25, 0, 10, 10),
+
             };
 
             Grid.SetRow(doboz, 0);
@@ -144,7 +152,10 @@ namespace belepteto
                 {
                     Text = talalt.Szoveg(),
                     HorizontalAlignment = HorizontalAlignment.Center,
-                Margin = new Thickness(25, 0, 10, 10),
+                    TextWrapping = TextWrapping.Wrap,
+                    FontWeight = FontWeights.Bold,
+                    FontSize = 16,
+                    Margin = new Thickness(25, 0, 10, 10),
                     VerticalAlignment = VerticalAlignment.Top,
                 };
                 panel.Children.Add(eredmeny);
@@ -163,6 +174,34 @@ namespace belepteto
 
         }
 
+        void feladat4fgv(object sender, RoutedEventArgs e, StackPanel feladat, List<Tanulo> adatok)
+        {
+            
+            Label szoveg = new Label
+            {
+                Content = $"A menzán aznap {tanulok.Where(x=>x.kod==3).Count()} tanuló ebédelt",
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            };
+            
+            feladat.Children.Add(szoveg);
+        }
+        void feladat5fgv(object sender, RoutedEventArgs e, StackPanel feladat, List<Tanulo> adatok)
+        {
+
+            int kolcsonzott = tanulok.Where(x => x.kod == 4).Select(x => x.azon).Distinct().Count();
+            int menza = tanulok.Where(x => x.kod == 3).Count();
+            Label szoveg = new Label
+            {
+                Content = menza>kolcsonzott? "Nem voltak többen mint a menzán" : "Többen voltak mint a menzán",
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            };
+
+            feladat.Children.Add(szoveg);
+        }
 
         StackPanel feladatKartya(int feladatSzam, int pozicioSor, int pozicioOszlop)
         {

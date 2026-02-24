@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Matthew\\source\\C_Sharp--25\\belepteto\\",
+  "WorkspaceRootPath": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\belepteto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C4C3AFA-F82E-4F64-BF12-00CBB8E0969E}|belepteto.csproj|c:\\users\\matthew\\source\\c_sharp--25\\belepteto\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C4C3AFA-F82E-4F64-BF12-00CBB8E0969E}|belepteto.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\belepteto\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C4C3AFA-F82E-4F64-BF12-00CBB8E0969E}|belepteto.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C4C3AFA-F82E-4F64-BF12-00CBB8E0969E}|belepteto.csproj|c:\\users\\matthew\\source\\c_sharp--25\\belepteto\\tanulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C4C3AFA-F82E-4F64-BF12-00CBB8E0969E}|belepteto.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\belepteto\\tanulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C4C3AFA-F82E-4F64-BF12-00CBB8E0969E}|belepteto.csproj|solutionrelative:tanulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C4C3AFA-F82E-4F64-BF12-00CBB8E0969E}|belepteto.csproj|c:\\users\\matthew\\source\\c_sharp--25\\belepteto\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4C4C3AFA-F82E-4F64-BF12-00CBB8E0969E}|belepteto.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\belepteto\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4C4C3AFA-F82E-4F64-BF12-00CBB8E0969E}|belepteto.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\C_Sharp--25\\belepteto\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\belepteto\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Matthew\\source\\C_Sharp--25\\belepteto\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\belepteto\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-13T07:59:47.5Z",
@@ -50,24 +50,25 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Tanulo.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\C_Sharp--25\\belepteto\\Tanulo.cs",
+              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\belepteto\\Tanulo.cs",
               "RelativeDocumentMoniker": "Tanulo.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\C_Sharp--25\\belepteto\\Tanulo.cs",
+              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\belepteto\\Tanulo.cs",
               "RelativeToolTip": "Tanulo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T12:03:15.177Z",
+              "WhenOpened": "2026-02-24T09:53:04.16Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\C_Sharp--25\\belepteto\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\belepteto\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\C_Sharp--25\\belepteto\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\belepteto\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAADwv5MAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAkwMAAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T10:19:55.253Z",
               "EditorCaption": ""
