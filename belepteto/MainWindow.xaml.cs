@@ -67,6 +67,12 @@ namespace belepteto
             gomb5.Click += (sender, e) =>
             {
                 feladat5fgv(sender, e, feladat5, tanulok);
+            }; 
+            StackPanel feladat6 = feladatKartya(6, 1, 1);
+            Button gomb6 = feladat6.Children[0] as Button;
+            gomb6.Click += (sender, e) =>
+            {
+                feladat6fgv(sender, e, feladat6, tanulok);
             };
         }
 
@@ -194,13 +200,68 @@ namespace belepteto
             int menza = tanulok.Where(x => x.kod == 3).Count();
             Label szoveg = new Label
             {
-                Content = menza>kolcsonzott? "Nem voltak többen mint a menzán" : "Többen voltak mint a menzán",
+                Content = $"Aznap {kolcsonzott} tanuló kölcsönzött a könyvtárban.",
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            }; 
+            Label szoveg2 = new Label
+            {
+                Content = menza > kolcsonzott ? "Nem voltak többen mint a menzán" : "Többen voltak mint a menzán",
                 FontSize = 16,
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Top
             };
 
             feladat.Children.Add(szoveg);
+            feladat.Children.Add(szoveg2);
+        }
+        void feladat6fgv(object sender, RoutedEventArgs e, StackPanel feladat, List<Tanulo> adatok)
+        {
+            var zarasutan = tanulok
+                            .Where(x =>
+                                    x.kod == 1 && 
+                                    x.ido > TimeOnly.Parse("10:50") && 
+                                    x.ido < TimeOnly.Parse("11:00"));
+
+            //Ha ezen tanulók előzőleg rögzített belépésük is kilépésük összege páratlan akkor jogtalanul mentek ki, ha nulla akkor most jött előszőr
+            var test = tanulok
+                        .Where(x => x.ido <= TimeOnly.Parse("10:50"))
+                        .GroupBy(
+                            x => x.azon,
+                            x => x.kod,
+                            (azon, kod) => new
+                            {
+                                Key = azon,
+                                Mennyi = kod.Count()
+                            }
+                            );
+
+            var test2 = test
+                .Where(azonGroup => zarasutan
+                                        .Select(x=>x.azon)
+                                        .Contains(azonGroup.Key) 
+                                    && azonGroup.Mennyi%2==1)
+                .Select(x=>x.Key);
+
+            MessageBox.Show(String.Join(" ", test2)+test2.Count());
+            
+            Label szoveg = new Label
+            {
+                
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            };
+            Label szoveg2 = new Label
+            {
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            };
+
+            feladat.Children.Add(szoveg);
+            feladat.Children.Add(szoveg2);
         }
 
         StackPanel feladatKartya(int feladatSzam, int pozicioSor, int pozicioOszlop)
