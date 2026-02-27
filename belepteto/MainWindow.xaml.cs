@@ -73,6 +73,12 @@ namespace belepteto
             gomb6.Click += (sender, e) =>
             {
                 feladat6fgv(sender, e, feladat6, tanulok);
+            }; 
+            StackPanel feladat7 = feladatKartya(7, 1, 2);
+            Button gomb7 = feladat7.Children[0] as Button;
+            gomb7.Click += (sender, e) =>
+            {
+                feladat7fgv(sender, e, feladat7, tanulok);
             };
         }
 
@@ -233,7 +239,7 @@ namespace belepteto
                             (azon, kod) => new
                             {
                                 Key = azon,
-                                Mennyi = kod.Count()
+                                Mennyi = kod.Where(x=> x==1 || x==2).Count()
                             }
                             );
 
@@ -244,24 +250,64 @@ namespace belepteto
                                     && azonGroup.Mennyi%2==1)
                 .Select(x=>x.Key);
 
-            MessageBox.Show(String.Join(" ", test2)+test2.Count());
-            
-            Label szoveg = new Label
+
+            TextBlock szoveg = new TextBlock
             {
-                
+                Text = "Az érintett tanulók:\n"+String.Join(" ", test2),
+                TextWrapping = TextWrapping.Wrap,
                 FontSize = 16,
+                Margin = new Thickness(5,5,5,5),
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Top
             };
-            Label szoveg2 = new Label
+            feladat.Children.Add(szoveg);
+        }
+        void feladat7fgv(object sender, RoutedEventArgs e, StackPanel feladat, List<Tanulo> adatok)
+        {
+            TextBlock szoveg = new TextBlock
             {
+                Text = "Egy tanuló azonosítója:",
+                TextWrapping = TextWrapping.Wrap,
                 FontSize = 16,
+                Margin = new Thickness(5, 5, 5, 5),
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Top
             };
 
+            TextBox beker = new TextBox
+            {
+                Name = "Beker7",
+                Width = 100,
+                Height = 20,
+                Margin = new Thickness(25, 0, 10, 10),
+            };
+            Button ido = new Button
+            {
+                Content = "Idő",
+                Width = 50,
+                Height = 30,
+                Margin = new Thickness(25, 0, 10, 10),
+            };
+            ido.Click += (sender, e) =>
+            {
+                string azonosito = beker.Text;
+                var tanulo = tanulok.Where(x => x.azon == azonosito);
+                var ido = tanulo.Last().ido-tanulo.First().ido;
+                TextBlock eredmeny = new TextBlock
+                {
+                    Text = $"A tanuló érkezése és távozása között {ido.Hours} óra {ido.Minutes} perc telt el.",
+                    TextWrapping = TextWrapping.Wrap,
+                    FontSize = 16,
+                    Margin = new Thickness(5, 5, 5, 5),
+                    HorizontalAlignment = HorizontalAlignment.Center,
+                    VerticalAlignment = VerticalAlignment.Top
+                };
+                feladat.Children.Add(eredmeny);
+            };
+
             feladat.Children.Add(szoveg);
-            feladat.Children.Add(szoveg2);
+            feladat.Children.Add(beker);
+            feladat.Children.Add(ido);
         }
 
         StackPanel feladatKartya(int feladatSzam, int pozicioSor, int pozicioOszlop)
@@ -271,6 +317,7 @@ namespace belepteto
             {
                 BorderThickness = new Thickness(10),
                 CornerRadius = new CornerRadius(5),
+                Margin = new Thickness(10,10,10,10),
                 //Margin = new Thickness(69, 75, 565, 200),
                 BorderBrush = new LinearGradientBrush
                 {
