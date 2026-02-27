@@ -8,23 +8,22 @@ namespace belepteto
 {
     class Tanulo
     {
-        public int kod;
+
         public string idoSzoveg;
         public TimeOnly ido;
         public string azon;
+        public int kod;
         public Tanulo(string azon, string ido, int kod)
         {
-            this.kod = kod;
-            this.idoSzoveg = ido;
             this.azon = azon;
+            this.idoSzoveg = ido;
             this.ido = TimeOnly.Parse(ido);
+            this.kod = kod;
         }
-
         public string Szoveg()
         {
-            return this.azon + " " + this.idoSzoveg + " " + this.kod;
+            return $"Azonosító: {azon};\nIdő: {idoSzoveg};\nTevékenység: {kod}";
         }
-
 
     }
 }

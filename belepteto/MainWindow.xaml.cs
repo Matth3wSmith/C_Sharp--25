@@ -60,7 +60,19 @@ namespace belepteto
             Button gomb4 = feladat4.Children[0] as Button;
             gomb4.Click += (sender, e) =>
             {
-                feladat3fgv(sender, e, feladat4, tanulok);
+                feladat4fgv(sender, e, feladat4, tanulok);
+            };
+            StackPanel feladat5 = feladatKartya(5, 1, 0);
+            Button gomb5 = feladat5.Children[0] as Button;
+            gomb5.Click += (sender, e) =>
+            {
+                feladat5fgv(sender, e, feladat5, tanulok);
+            }; 
+            StackPanel feladat6 = feladatKartya(6, 1, 1);
+            Button gomb6 = feladat6.Children[0] as Button;
+            gomb6.Click += (sender, e) =>
+            {
+                feladat6fgv(sender, e, feladat6, tanulok);
             };
         }
 
@@ -106,7 +118,9 @@ namespace belepteto
             ListBox doboz = new ListBox
             {
                 ItemsSource = belepesFuzott,
-                Height = 200
+                Height = 200,
+                Margin = new Thickness(25, 0, 10, 10),
+
             };
 
             Grid.SetRow(doboz, 0);
@@ -144,7 +158,10 @@ namespace belepteto
                 {
                     Text = talalt.Szoveg(),
                     HorizontalAlignment = HorizontalAlignment.Center,
-                Margin = new Thickness(25, 0, 10, 10),
+                    TextWrapping = TextWrapping.Wrap,
+                    FontWeight = FontWeights.Bold,
+                    FontSize = 16,
+                    Margin = new Thickness(25, 0, 10, 10),
                     VerticalAlignment = VerticalAlignment.Top,
                 };
                 panel.Children.Add(eredmeny);
@@ -163,6 +180,89 @@ namespace belepteto
 
         }
 
+        void feladat4fgv(object sender, RoutedEventArgs e, StackPanel feladat, List<Tanulo> adatok)
+        {
+            
+            Label szoveg = new Label
+            {
+                Content = $"A menzán aznap {tanulok.Where(x=>x.kod==3).Count()} tanuló ebédelt",
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            };
+            
+            feladat.Children.Add(szoveg);
+        }
+        void feladat5fgv(object sender, RoutedEventArgs e, StackPanel feladat, List<Tanulo> adatok)
+        {
+
+            int kolcsonzott = tanulok.Where(x => x.kod == 4).Select(x => x.azon).Distinct().Count();
+            int menza = tanulok.Where(x => x.kod == 3).Count();
+            Label szoveg = new Label
+            {
+                Content = $"Aznap {kolcsonzott} tanuló kölcsönzött a könyvtárban.",
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            }; 
+            Label szoveg2 = new Label
+            {
+                Content = menza > kolcsonzott ? "Nem voltak többen mint a menzán" : "Többen voltak mint a menzán",
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            };
+
+            feladat.Children.Add(szoveg);
+            feladat.Children.Add(szoveg2);
+        }
+        void feladat6fgv(object sender, RoutedEventArgs e, StackPanel feladat, List<Tanulo> adatok)
+        {
+            var zarasutan = tanulok
+                            .Where(x =>
+                                    x.kod == 1 && 
+                                    x.ido > TimeOnly.Parse("10:50") && 
+                                    x.ido < TimeOnly.Parse("11:00"));
+
+            //Ha ezen tanulók előzőleg rögzített belépésük is kilépésük összege páratlan akkor jogtalanul mentek ki, ha nulla akkor most jött előszőr
+            var test = tanulok
+                        .Where(x => x.ido <= TimeOnly.Parse("10:50"))
+                        .GroupBy(
+                            x => x.azon,
+                            x => x.kod,
+                            (azon, kod) => new
+                            {
+                                Key = azon,
+                                Mennyi = kod.Count()
+                            }
+                            );
+
+            var test2 = test
+                .Where(azonGroup => zarasutan
+                                        .Select(x=>x.azon)
+                                        .Contains(azonGroup.Key) 
+                                    && azonGroup.Mennyi%2==1)
+                .Select(x=>x.Key);
+
+            MessageBox.Show(String.Join(" ", test2)+test2.Count());
+            
+            Label szoveg = new Label
+            {
+                
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            };
+            Label szoveg2 = new Label
+            {
+                FontSize = 16,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Top
+            };
+
+            feladat.Children.Add(szoveg);
+            feladat.Children.Add(szoveg2);
+        }
 
         StackPanel feladatKartya(int feladatSzam, int pozicioSor, int pozicioOszlop)
         {
