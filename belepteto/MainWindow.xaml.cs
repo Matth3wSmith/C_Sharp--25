@@ -326,8 +326,7 @@ namespace belepteto
                     GradientStops = new GradientStopCollection
                     {
                         new GradientStop((Color)ColorConverter.ConvertFromString("#FF320A8E"),0),
-                        new GradientStop(Colors.Orange, 0.5),
-                        new GradientStop(Colors.Yellow, 1)
+                        new GradientStop((Color)ColorConverter.ConvertFromString("#132CCD"), 1),
                     }
                 }
             };
