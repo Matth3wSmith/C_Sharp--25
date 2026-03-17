@@ -315,7 +315,7 @@ namespace belepteto
             //Keret
             Border kulsoKeret = new Border
             {
-                BorderThickness = new Thickness(10),
+                BorderThickness = new Thickness(5),
                 CornerRadius = new CornerRadius(5),
                 Margin = new Thickness(10,10,10,10),
                 //Margin = new Thickness(69, 75, 565, 200),
@@ -325,26 +325,38 @@ namespace belepteto
                     StartPoint = new Point(0.5, 0),
                     GradientStops = new GradientStopCollection
                     {
-                        new GradientStop((Color)ColorConverter.ConvertFromString("#FF320A8E"),0),
-                        new GradientStop((Color)ColorConverter.ConvertFromString("#132CCD"), 1),
+                        new GradientStop((Color)ColorConverter.ConvertFromString("#a2051e"),0),
+                        new GradientStop((Color)ColorConverter.ConvertFromString("#590412"), 1),
                     }
                 }
             };
             Border belsoKeret = new Border
             {
-                BorderThickness = new Thickness(1),
+                BorderThickness = new Thickness(),
                 BorderBrush = Brushes.Black,
             };
             Grid belsoGrid = new Grid
             {
+                Background = new LinearGradientBrush
+                {
+                    EndPoint = new Point(0.5, 1),
+                    StartPoint = new Point(0.5, 0),
+                    GradientStops = new GradientStopCollection
+                    {
+                        new GradientStop((Color)ColorConverter.ConvertFromString("#af5be1"),0),
+                        new GradientStop((Color)ColorConverter.ConvertFromString("#8d1ecf"), 1),
+                    }
+                },
                 
+
             };
             StackPanel stackPanel = new StackPanel
             {
                 Name = "Feladat" + feladatSzam,
                 Orientation = Orientation.Vertical,
                 HorizontalAlignment = HorizontalAlignment.Center,
-                VerticalAlignment = VerticalAlignment.Center
+                VerticalAlignment = VerticalAlignment.Center,
+                
             };
 
             Button szovegbtn = new Button
