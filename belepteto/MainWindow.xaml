@@ -10,22 +10,57 @@
 
     <Window.Resources>
         <Style TargetType="Button">
+            
             <Style.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5" />
                 </Style>
             </Style.Resources>
+            
             <Setter Property="BorderThickness" Value="2" />
             <Setter Property="BorderBrush" Value="DarkRed" />
             <Setter Property="Background" Value="DarkRed" />
             <Setter Property="Foreground" Value="White" />
-            
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="ButtonBorder" 
+                            Background="{TemplateBinding Background}" 
+                            BorderBrush="{TemplateBinding BorderBrush}" 
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" 
+                                          VerticalAlignment="Center" 
+                                          Margin="{TemplateBinding Padding}"/>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="Black" />
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter Property="Background" Value="Black" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
             <Style.Triggers>
                 <!--Hover-->
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="Black"/>
                     <Setter Property="Foreground" Value="White"/>
                 </Trigger>
+                <!--Disabled
+                Mivel a gombokra van egy erősebb úgynevezett ControlTemplate style
+                ezért nem fog hatással lenni az itt beállított háttér
+                Megoldás hogy egy új ControlTemplate style-t adunk a gombnak
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" Value="ForestGreen"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                </Trigger>
+                -->
             </Style.Triggers>
         </Style>
 
@@ -36,9 +71,9 @@
             <Setter Property="Foreground" Value="White" />
         </Style>
     </Window.Resources>
-    
+
     <Grid>
-        
+
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -57,7 +92,7 @@
 
             </Border>
 
-            
+
         </Grid>
 
         <Grid Grid.Row="1" Name="FoGrid" Background="#FFB10E0E"/>
@@ -81,6 +116,6 @@
         </Border>
         -->
     </Grid>
-    
+
 </Window>
     

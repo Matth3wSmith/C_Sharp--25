@@ -102,6 +102,8 @@ namespace belepteto
             };
             feladat.Children.Add(szoveg);
             feladat.Children.Add(szoveg2);
+
+            (sender as Button).IsEnabled = false;
         }
 
         void feladat3fgv(object sender, RoutedEventArgs e, StackPanel feladat, List<Tanulo> adatok)
