@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\",
+  "WorkspaceRootPath": "C:\\Users\\Matthew\\source\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\digikult_erettsegi\\autok-wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|c:\\users\\matthew\\source\\c_sharp--25\\digikult_erettsegi\\autok-wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\digikult_erettsegi\\autok-wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|c:\\users\\matthew\\source\\c_sharp--25\\digikult_erettsegi\\autok-wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\c_sharp--25\\digikult_erettsegi\\autok-wpf\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|c:\\users\\matthew\\source\\c_sharp--25\\digikult_erettsegi\\autok-wpf\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|solutionrelative:auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,13 +28,14 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Auto.cs",
-              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\Auto.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\Auto.cs",
               "RelativeDocumentMoniker": "Auto.cs",
-              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\Auto.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\Auto.cs",
               "RelativeToolTip": "Auto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T10:05:16.382Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -45,9 +46,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Matthew\\source\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-26T09:51:07.755Z",
@@ -57,11 +58,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAUwFcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T09:51:05.65Z",
               "EditorCaption": ""

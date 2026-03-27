@@ -10,12 +10,19 @@
         <TabControl>
             <TabItem Header="2. feladat">
                 <Grid Background="#FF6D1212">
-                    <TextBlock HorizontalAlignment="Left" Margin="30,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="30" Width="221" FontSize="20" Text="Utolsó jeladás időpontja"></TextBlock>
-                    <Button Content="Button" HorizontalAlignment="Left" Margin="78,80,0,0" VerticalAlignment="Top" Width="124"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="25,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="30" Width="221" FontSize="20" Text="Utolsó jeladás időpontja"></TextBlock>
+                    <Button Content="Lekérés" HorizontalAlignment="Left" Margin="74,96,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click"/>
+                    <TextBlock x:Name="Clock" HorizontalAlignment="Left" TextAlignment="Center" Margin="251,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="64" Width="322" Foreground="White" FontSize="40" FontFamily="Monospac821 BT"/>
+                    <TextBlock x:Name="Rendszam" HorizontalAlignment="Left" Margin="25,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF78D223" Height="30" Width="221" FontSize="20" Text="Rendszám:"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5"/>
+            <TabItem Header="3. feladat">
+                <Grid Background="#FF6D1212">
+                    <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="59" Width="654" FontSize="40" FontFamily="Bahnschrift Light" Text="Első, adatbázisba felvett autó adatai:"></TextBlock>
+                    <ListBox x:Name="RendszamLista" Margin="364,99,30,30" Background="White" FontSize="18" />
+                    <Button Content="Lekérés" HorizontalAlignment="Center" Margin="0,52,0,0" VerticalAlignment="Top" Height="42" Width="366" FontSize="20" Background="#FF11CC0B" Click="Feladat_3"/>
+                    <TextBlock x:Name="Rendszam3" TextAlignment="Center" HorizontalAlignment="Left" Margin="72,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="163" Width="257" Foreground="White" FontSize="40"/>
+                </Grid>
             </TabItem>
         </TabControl>
 
