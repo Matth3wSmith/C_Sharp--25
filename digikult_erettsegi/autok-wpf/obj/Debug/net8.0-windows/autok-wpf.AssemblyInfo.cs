@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("autok-wpf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0e5336934700b0b32c21752c014d263a4b6b546")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cfdb88a921e2b02c91782c9c82c64b68ce40a18")]
 [assembly: System.Reflection.AssemblyProductAttribute("autok-wpf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("autok-wpf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

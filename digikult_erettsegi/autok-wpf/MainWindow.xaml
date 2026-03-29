@@ -10,10 +10,14 @@
         <TabControl>
             <TabItem Header="2. feladat">
                 <Grid Background="#FF6D1212">
-                    <TextBlock HorizontalAlignment="Left" Margin="25,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="30" Width="221" FontSize="20" Text="Utolsó jeladás időpontja"></TextBlock>
-                    <Button Content="Lekérés" HorizontalAlignment="Left" Margin="74,96,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click"/>
-                    <TextBlock x:Name="Clock" HorizontalAlignment="Left" TextAlignment="Center" Margin="251,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="64" Width="322" Foreground="White" FontSize="40" FontFamily="Monospac821 BT"/>
-                    <TextBlock x:Name="Rendszam" HorizontalAlignment="Left" Margin="25,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF78D223" Height="30" Width="221" FontSize="20" Text="Rendszám:"/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="96*"/>
+                        <ColumnDefinition Width="301*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left" Margin="25,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="30" Width="221" FontSize="20" Text="Utolsó jeladás időpontja" Grid.ColumnSpan="2"></TextBlock>
+                    <Button Content="Lekérés" HorizontalAlignment="Left" Margin="74,96,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click" Grid.ColumnSpan="2"/>
+                    <TextBlock x:Name="Clock" HorizontalAlignment="Left" TextAlignment="Center" Margin="59,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="64" Width="322" Foreground="White" FontSize="40" FontFamily="Monospac821 BT" Grid.Column="1"/>
+                    <TextBlock x:Name="Rendszam" HorizontalAlignment="Left" Margin="25,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF78D223" Height="30" Width="221" FontSize="20" Text="Rendszám:" Grid.ColumnSpan="2"/>
                 </Grid>
             </TabItem>
             <TabItem Header="3. feladat">
@@ -24,6 +28,39 @@
                     <TextBlock x:Name="Rendszam3" TextAlignment="Center" HorizontalAlignment="Left" Margin="72,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="163" Width="257" Foreground="White" FontSize="40"/>
                 </Grid>
             </TabItem>
+            <TabItem Header="4. feladat">
+                <Grid Background="#FF6D1212">
+                    <TextBlock HorizontalAlignment="Left" Margin="38,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="30"><Run Language="hu-hu" Text="Adj meg időpontot (óra:perc):"/></TextBlock>
+                    <TextBox x:Name="Idopont4" Margin="468,56,0,0" TextWrapping="Wrap"  TextAlignment="Center" Text="" VerticalAlignment="Top" Width="269" Height="50" Foreground="Black" FontSize="20" HorizontalAlignment="Left" Padding="0,8,0,0" TextChanged="Idopont_megadas" LostFocus="Idopont4_LostFocus"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="38,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="30"><Run Language="hu-hu" Text="Jeladások:"/></TextBlock>
+                    <ListBox x:Name="jeladasok"  Margin="233,127,233,24"/>
+
+                </Grid>
+            </TabItem>
+            
+            <TabItem Header="5. feladat" MouseEnter="TabItem_MouseEnter" >
+                <Grid Background="#FF6D1212">
+                    <TextBlock HorizontalAlignment="Left" Margin="217,80,0,0" TextWrapping="Wrap" Text="Járművek amik elérték" VerticalAlignment="Top" TextAlignment="Center" Height="40" Width="296" Foreground="White" FontSize="25"/>
+                    <TextBlock x:Name="maxSebesseg" HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" Text="Legnagyobb sebesség:" VerticalAlignment="Top" TextAlignment="Left" Height="41" Width="396" FontSize="25" Foreground="White" RenderTransformOrigin="0.401,0.392">
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleY="-0.123"/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="-0.399"/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform>
+                    </TextBlock>
+                    <ListBox x:Name="sebesseg5"  Margin="183,125,183,19"/>
+                </Grid>
+            </TabItem>
+            
+            <TabItem Header="6. feladat">
+                <Grid Background="#FF6D1212">
+
+                </Grid>
+            </TabItem>
+            
         </TabControl>
 
     </Grid>

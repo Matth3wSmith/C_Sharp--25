@@ -26,5 +26,9 @@ namespace autok_wpf
         {
             return "Mérés időpontja: "+ this.idopont.ToString() + ", Sebessége: " + this.sebesseg+ " km/h";
         }
+        public string jeladasString()
+        {
+            return "Rendszám:"+this.rendszam +" Mérés időpontja: "+ this.idopont.ToString() + ", Sebessége: " + this.sebesseg+ " km / h";
+        }
     }
 }

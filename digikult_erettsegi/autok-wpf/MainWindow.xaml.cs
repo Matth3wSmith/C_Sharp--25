@@ -87,5 +87,24 @@ namespace autok_wpf
             RendszamLista.ItemsSource = elsoAutoAdat.Select(x => x.RendszamNelkul());
             Rendszam3.Text = elsoAutoAdat[0].rendszam;
         }
+
+        private void Idopont_megadas(object sender, TextChangedEventArgs e)
+        {
+        }
+
+        private void Idopont4_LostFocus(object sender, RoutedEventArgs e)
+        {
+
+            var split = Idopont4.Text.Split(":");
+            TimeOnly idopont = new TimeOnly(int.Parse(split[0]), int.Parse(split[1]));
+            jeladasok.ItemsSource = osszAdat.Where(x => x.idopont == idopont).Select(x => x.jeladasString());
+        }
+
+        private void TabItem_MouseEnter(object sender, MouseEventArgs e)
+        {
+            var maxSeb = osszAdat.Max(x => x.sebesseg);
+            maxSebesseg.Text = "Legnagyobb sebesség: "+(" " + maxSeb + "km/h");
+            sebesseg5.ItemsSource = osszAdat.Where(x=>x.sebesseg==maxSeb).Select(x => x.jeladasString());
+        }
     }
 }
