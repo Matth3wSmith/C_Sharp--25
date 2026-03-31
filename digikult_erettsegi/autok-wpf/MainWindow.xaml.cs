@@ -106,5 +106,20 @@ namespace autok_wpf
             maxSebesseg.Text = "Legnagyobb sebesség: "+(" " + maxSeb + "km/h");
             sebesseg5.ItemsSource = osszAdat.Where(x=>x.sebesseg==maxSeb).Select(x => x.jeladasString());
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string rendszam = F6rendszam.Text;
+            List<double> km = new List<double>();
+            km.Add(0.0);
+            for(int i = 1; i < autok[rendszam].Count; i++)
+            {
+                var idoDiff = autok[rendszam][i].idopont - autok[rendszam][i - 1].idopont;
+                km.Add(Math.Round(km[i-1]+idoDiff.TotalHours * autok[rendszam][i - 1].sebesseg,1));
+            }
+
+            F6.ItemsSource = km.Select((x, i) => autok[rendszam][i].idopont.ToString() + " " + x);
+
+        }
     }
 }

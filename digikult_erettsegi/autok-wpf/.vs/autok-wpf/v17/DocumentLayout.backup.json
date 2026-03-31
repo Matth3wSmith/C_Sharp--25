@@ -35,8 +35,7 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAAAB4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T10:05:16.382Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -62,7 +61,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "G:\\Suli\\Programozasi-alapok\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAIA0wGkAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAqwHUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T09:51:05.65Z",
               "EditorCaption": ""

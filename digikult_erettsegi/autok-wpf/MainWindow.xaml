@@ -37,7 +37,7 @@
 
                 </Grid>
             </TabItem>
-            
+
             <TabItem Header="5. feladat" MouseEnter="TabItem_MouseEnter" >
                 <Grid Background="#FF6D1212">
                     <TextBlock HorizontalAlignment="Left" Margin="217,80,0,0" TextWrapping="Wrap" Text="Járművek amik elérték" VerticalAlignment="Top" TextAlignment="Center" Height="40" Width="296" Foreground="White" FontSize="25"/>
@@ -54,13 +54,17 @@
                     <ListBox x:Name="sebesseg5"  Margin="183,125,183,19"/>
                 </Grid>
             </TabItem>
-            
+
             <TabItem Header="6. feladat">
                 <Grid Background="#FF6D1212">
+                    <TextBlock HorizontalAlignment="Left" Margin="96,41,0,0" TextWrapping="Wrap" Text="Adj meg egy rendszámot:" VerticalAlignment="Top" Height="35" Width="296" FontSize="25" Foreground="White"/>
+                    <TextBox x:Name="F6rendszam" HorizontalAlignment="Left" Margin="397,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" Height="36" FontSize="20"/>
+                    <Button Content="Lekérés" HorizontalAlignment="Center" Margin="0,96,0,0" VerticalAlignment="Top" Width="210" Height="44" FontSize="20" Click="Button_Click_1"/>
+                    <ListBox x:Name="F6"  Margin="98,162,98,36"/>
 
                 </Grid>
             </TabItem>
-            
+
         </TabControl>
 
     </Grid>

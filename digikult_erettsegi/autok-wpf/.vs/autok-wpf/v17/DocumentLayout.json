@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "G:\\Suli\\Programozasi-alapok\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|g:\\suli\\programozasi-alapok\\c_sharp--25\\digikult_erettsegi\\autok-wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|g:\\suli\\programozasi-alapok\\c_sharp--25\\digikult_erettsegi\\autok-wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|g:\\suli\\programozasi-alapok\\c_sharp--25\\digikult_erettsegi\\autok-wpf\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|solutionrelative:auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|g:\\suli\\programozasi-alapok\\c_sharp--25\\digikult_erettsegi\\autok-wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1501B4D7-3C46-43BC-9BAD-EEF9E9693380}|autok-wpf.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Auto.cs",
               "DocumentMoniker": "G:\\Suli\\Programozasi-alapok\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\Auto.cs",
               "RelativeDocumentMoniker": "Auto.cs",
@@ -35,8 +35,7 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAAAB4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T10:05:16.382Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -44,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "G:\\Suli\\Programozasi-alapok\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -56,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "G:\\Suli\\Programozasi-alapok\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "G:\\Suli\\Programozasi-alapok\\C_Sharp--25\\digikult_erettsegi\\autok-wpf\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAIA0wGkAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAqwHUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T09:51:05.65Z",
               "EditorCaption": ""
