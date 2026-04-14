@@ -18,6 +18,9 @@ namespace szalag
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<Rekesz> rekeszek = new List<Rekesz>();
+        int szalagHossz;
+        int szalagSzelesseg;
         public MainWindow()
         {
             InitializeComponent();
@@ -26,7 +29,6 @@ namespace szalag
             var adatok = File.ReadAllLines("szallit.txt", Encoding.UTF8);
             int szalagHossz = int.Parse(adatok[0].Split(" ")[0]);
             int szalagSzelesseg = int.Parse(adatok[0].Split(" ")[1]);
-            List<Rekesz> rekeszek = new List<Rekesz>();
             for(int i = 1; i < adatok.Length; i++)
             {
                 var split = adatok[i].Split(" ");
@@ -34,6 +36,22 @@ namespace szalag
             }
 
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int sorszam = int.Parse(F2.Text);
+            
+            
+            Valasz.Text = "Honnan: " + rekeszek[sorszam - 1].kezd +" ; Hova: "+rekeszek[sorszam-1].veg;
+            
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            int maxHossz = rekeszek.Max(x => x.hossz);
+            Max.Text += (' '+maxHossz);
+            Maxok.Text += ' '+ string.Join(" ", rekeszek.Where(x => x.hossz == maxHossz).Select(x => x.sorszam));
         }
     }
 }

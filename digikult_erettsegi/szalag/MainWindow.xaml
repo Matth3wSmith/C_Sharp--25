@@ -9,7 +9,8 @@
 
     <Window.Resources>
         <Style TargetType="TextBlock">
-            <Setter Property="Background" Value="Wheat"/>
+            <Setter Property="Foreground" Value="Wheat"/>
+            <Setter Property="FontSize" Value="20"/>
         </Style>
         <Style TargetType="Grid">
             <Setter Property="Background" Value="#FF2F805D"/>
@@ -17,11 +18,20 @@
     </Window.Resources>
     <Grid>
         <TabControl>
-            <TabItem Header="TabItem">
-                <Grid/>
+            <TabItem Header="2. feladat">
+                <Grid>
+                    <TextBlock HorizontalAlignment="Left" Margin="79,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="Add meg egy szállítás sorszámát:"/></TextBlock>
+                    <TextBox x:Name="F2" HorizontalAlignment="Left" Margin="424,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" Height="22"/>
+                    <Button Content="Lekérés" HorizontalAlignment="Left" Margin="608,58,0,0" VerticalAlignment="Top" Height="27" Width="59" Click="Button_Click"/>
+                    <TextBlock x:Name="Valasz" HorizontalAlignment="Center" Margin="0,143,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="379"/>
+                </Grid>
             </TabItem>
-            <TabItem Header="TabItem">
-                <Grid/>
+            <TabItem Header="3. feladat">
+                <Grid>
+                    <TextBlock x:Name="Max" HorizontalAlignment="Left" Margin="64,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="hu-hu" Text="A "/><Run Text=" legnagyobb távolság: "/></TextBlock>
+                    <TextBlock x:Name="Maxok" HorizontalAlignment="Left" Margin="64,100,0,0" TextWrapping="Wrap" Text="A maximális távolságú szállítások sorszáma:" VerticalAlignment="Top"/>
+                    <Button Content="Lekérés" HorizontalAlignment="Center" Margin="0,171,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+                </Grid>
             </TabItem>
         </TabControl>
 

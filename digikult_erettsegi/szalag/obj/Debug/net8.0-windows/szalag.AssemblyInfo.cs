@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("szalag")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a44fff6be81d8914ed0918f5fa089cda2f6ec75a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+debcea71dab90f73cd40393e3190d11e092ffed9")]
 [assembly: System.Reflection.AssemblyProductAttribute("szalag")]
 [assembly: System.Reflection.AssemblyTitleAttribute("szalag")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

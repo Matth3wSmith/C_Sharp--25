@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\kovacs.mate.22\\.nuget\\packages\\": {},
+    "C:\\Users\\komat\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\digikult_erettsegi\\szalag\\szalag.csproj",
+      "projectUniqueName": "D:\\Suli\\Programozas\\C_Sharp--25\\digikult_erettsegi\\szalag\\szalag.csproj",
       "projectName": "szalag",
-      "projectPath": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\digikult_erettsegi\\szalag\\szalag.csproj",
-      "packagesPath": "C:\\Users\\kovacs.mate.22\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kovacs.mate.22\\source\\repos\\C_Sharp--25\\digikult_erettsegi\\szalag\\obj\\",
+      "projectPath": "D:\\Suli\\Programozas\\C_Sharp--25\\digikult_erettsegi\\szalag\\szalag.csproj",
+      "packagesPath": "C:\\Users\\komat\\.nuget\\packages\\",
+      "outputPath": "D:\\Suli\\Programozas\\C_Sharp--25\\digikult_erettsegi\\szalag\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kovacs.mate.22\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\komat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -37,6 +37,7 @@
       },
       "frameworks": {
         "net8.0-windows7.0": {
+          "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "projectReferences": {}
         }
@@ -51,10 +52,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0-windows7.0": {
+        "framework": "net8.0-windows7.0",
         "targetAlias": "net8.0-windows",
         "imports": [
           "net461",
@@ -75,7 +77,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
